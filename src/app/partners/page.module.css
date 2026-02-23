@@ -1,0 +1,129 @@
+.valueCard {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 32px 24px;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition-slow);
+}
+
+.valueCard:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+}
+
+.valueIcon {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.valueCard h3 {
+    color: var(--primary);
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.collabCard {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 28px;
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition-slow);
+}
+
+.collabCard:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.collabIcon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.collabCard h3 {
+    color: var(--primary);
+    margin-bottom: 8px;
+}
+
+.pkgCard {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 36px 28px;
+    box-shadow: var(--shadow-md);
+    border-top: 5px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: var(--transition-slow);
+    position: relative;
+}
+
+.pkgCard:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-xl);
+}
+
+.pkgHighlighted {
+    background: linear-gradient(160deg, #f8fdf9, #fff);
+    box-shadow: var(--shadow-xl);
+}
+
+.pkgBadge {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--accent);
+    color: var(--white);
+    padding: 4px 14px;
+    border-radius: var(--radius-full);
+    font-size: 0.8rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.pkgCard h3 {
+    font-size: 1.4rem;
+}
+
+.pkgPrice {
+    font-size: 0.9rem;
+    color: var(--gray-600);
+    font-weight: 600;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.pkgList {
+    list-style: none;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pkgList li {
+    display: flex;
+    gap: 8px;
+    font-size: 0.88rem;
+    color: var(--gray-700);
+    align-items: flex-start;
+}
+
+.pkgList li span {
+    flex-shrink: 0;
+    font-weight: bold;
+}
+
+.partnerForm {}
+
+@media (max-width: 768px) {
+    .pkgCard {
+        margin-top: 20px;
+    }
+}

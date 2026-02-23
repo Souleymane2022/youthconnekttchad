@@ -1,0 +1,34 @@
+.legalContent {
+    font-size: 0.97rem;
+    line-height: 1.8;
+    color: var(--gray-700);
+}
+
+.legalContent h2 {
+    font-size: 1.2rem;
+    color: var(--primary);
+    margin: 36px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.legalContent h2:first-child {
+    margin-top: 0;
+}
+
+.legalContent p {
+    margin-bottom: 16px;
+}
+
+.legalContent ul,
+.legalContent ol {
+    padding-left: 24px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.legalContent strong {
+    color: var(--gray-900);
+}

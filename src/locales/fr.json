@@ -1,0 +1,230 @@
+{
+    "nav": {
+        "home": "Accueil",
+        "about": "À propos",
+        "programs": "Programmes",
+        "opportunities": "Opportunités",
+        "events": "Événements",
+        "blog": "Blog",
+        "media": "Médias",
+        "partners": "Partenaires",
+        "contact": "Contact",
+        "join": "Rejoindre"
+    },
+    "hero": {
+        "title": "Connecter la jeunesse aux opportunités et à l'avenir",
+        "subtitle": "YouthConnekt Tchad est un programme national d'autonomisation des jeunes qui facilite l'accès aux opportunités, au développement des compétences et à l'entrepreneuriat pour bâtir le Tchad de demain.",
+        "cta1": "Rejoindre la communauté",
+        "cta2": "Voir les opportunités"
+    },
+    "stats": {
+        "youth": "Jeunes accompagnés",
+        "trainings": "Formations organisées",
+        "startups": "Startups soutenues",
+        "partners": "Partenaires"
+    },
+    "about_section": {
+        "title": "Qui sommes-nous ?",
+        "subtitle": "YouthConnekt Tchad est une plateforme nationale dédiée à l'autonomisation des jeunes tchadiens. Nous créons des ponts entre la jeunesse et les opportunités qui façonnent leur avenir.",
+        "link": "En savoir plus"
+    },
+    "programs_section": {
+        "title": "Nos Programmes",
+        "subtitle": "Des programmes conçus pour répondre aux besoins réels des jeunes tchadiens, de la formation à l'entrepreneuriat.",
+        "employability": {
+            "title": "Employabilité & Compétences",
+            "desc": "Formations pratiques, certifications et accompagnement vers l'emploi pour les jeunes diplômés et demandeurs d'emploi."
+        },
+        "entrepreneurship": {
+            "title": "Entrepreneuriat & Incubation",
+            "desc": "Soutien aux startups et jeunes entrepreneurs à travers le coaching, le mentorat et l'accès au financement."
+        },
+        "innovation": {
+            "title": "Innovation & Numérique",
+            "desc": "Hackathons, challenges d'innovation et formations au numérique pour préparer les jeunes à l'économie digitale."
+        },
+        "leadership": {
+            "title": "Engagement & Leadership",
+            "desc": "Programmes de leadership citoyen, de volontariat et d'engagement pour former les décideurs de demain."
+        }
+    },
+    "opportunities_section": {
+        "title": "Dernières Opportunités",
+        "subtitle": "Bourses, formations, concours, emplois et financements pour les jeunes tchadiens.",
+        "view_all": "Voir toutes les opportunités"
+    },
+    "events_section": {
+        "title": "Événements à venir",
+        "subtitle": "Rencontres, forums, hackathons et ateliers pour connecter, inspirer et former.",
+        "view_all": "Voir le calendrier"
+    },
+    "testimonials_section": {
+        "title": "Ils témoignent",
+        "subtitle": "Des jeunes qui ont transformé leur vie grâce à YouthConnekt Tchad."
+    },
+    "partners_section": {
+        "title": "Nos Partenaires",
+        "subtitle": "Ensemble, nous construisons un écosystème favorable à l'épanouissement de la jeunesse tchadienne."
+    },
+    "newsletter_section": {
+        "title": "Restez informé",
+        "subtitle": "Recevez les dernières opportunités, actualités et événements directement dans votre boîte mail.",
+        "placeholder": "Votre adresse email",
+        "button": "S'inscrire",
+        "success": "Merci ! Vous êtes bien inscrit(e)."
+    },
+    "about": {
+        "title": "À propos de YouthConnekt Tchad",
+        "mission_title": "Notre Mission",
+        "mission_text": "Autonomiser les jeunes tchadiens en leur offrant accès aux opportunités, compétences et réseaux nécessaires pour réaliser leur plein potentiel et contribuer au développement du Tchad.",
+        "vision_title": "Notre Vision",
+        "vision_text": "Un Tchad où chaque jeune, quel que soit son milieu, dispose des outils et du soutien pour construire un avenir prospère et participer activement au développement national.",
+        "objectives_title": "Nos Objectifs",
+        "obj1": "Réduire le chômage des jeunes en facilitant l'accès à l'emploi et à l'entrepreneuriat",
+        "obj2": "Renforcer les compétences techniques et soft skills des jeunes",
+        "obj3": "Créer un réseau national de jeunes leaders et innovateurs",
+        "obj4": "Promouvoir l'inclusion, la parité et l'équité dans l'accès aux opportunités",
+        "values_title": "Nos Valeurs",
+        "val1_title": "Inclusion",
+        "val1_desc": "Toutes les jeunes, sans discriminations, méritent un accès égal aux opportunités.",
+        "val2_title": "Excellence",
+        "val2_desc": "Nous visons les standards les plus élevés dans tout ce que nous entreprendrons.",
+        "val3_title": "Impact",
+        "val3_desc": "Chaque action est orientée vers un changement concret et mesurable.",
+        "val4_title": "Partenariat",
+        "val4_desc": "Nous bâtissons ensemble, avec les jeunes, les institutions et le secteur privé.",
+        "timeline_title": "Notre Parcours",
+        "team_title": "Notre Équipe",
+        "faq_title": "Questions Fréquentes",
+        "faq1_q": "Qui peut rejoindre YouthConnekt Tchad ?",
+        "faq1_a": "Tous les jeunes tchadiens âgés de 15 à 35 ans peuvent rejoindre la plateforme, qu'ils soient étudiants, demandeurs d'emploi ou jeunes entrepreneurs.",
+        "faq2_q": "Comment postuler à une opportunité ?",
+        "faq2_a": "Il suffit de créer un compte, parcourir les opportunités disponibles et soumettre votre candidature en ligne.",
+        "faq3_q": "Les programmes sont-ils gratuits ?",
+        "faq3_a": "La majorité de nos programmes sont entièrement gratuits grâce au soutien de nos partenaires institutionnels et privés.",
+        "faq4_q": "Comment devenir partenaire ?",
+        "faq4_a": "Visitez notre page Partenaires et remplissez le formulaire de demande. Notre équipe vous contactera sous 48h."
+    },
+    "programs": {
+        "title": "Nos Programmes",
+        "subtitle": "Quatre piliers pour autonomiser la jeunesse tchadienne",
+        "apply": "Postuler / S'inscrire",
+        "objectives": "Objectifs",
+        "audience": "Public cible",
+        "format": "Format",
+        "benefits": "Bénéfices",
+        "how": "Comment participer"
+    },
+    "opportunities": {
+        "title": "Opportunités",
+        "subtitle": "Bourses, formations, concours, emplois et financements",
+        "search": "Rechercher une opportunité...",
+        "filter_category": "Catégorie",
+        "filter_status": "Statut",
+        "all": "Toutes",
+        "open": "Ouvert",
+        "closed": "Fermé",
+        "deadline": "Date limite",
+        "organization": "Organisation",
+        "apply_btn": "Postuler",
+        "share_btn": "Partager",
+        "submit_title": "Soumettre une opportunité",
+        "submit_subtitle": "Vous avez une bourse, un concours ou un emploi à partager ? Soumettez-le ici.",
+        "categories": {
+            "bourse": "Bourse",
+            "formation": "Formation",
+            "concours": "Concours",
+            "emploi": "Emploi",
+            "financement": "Financement"
+        }
+    },
+    "events": {
+        "title": "Événements",
+        "subtitle": "Forum, hackathons, ateliers et rencontres",
+        "register": "S'inscrire",
+        "location": "Lieu",
+        "date_time": "Date & Heure",
+        "speakers": "Intervenants",
+        "program": "Programme",
+        "partners": "Partenaires de l'événement",
+        "gallery": "Galerie"
+    },
+    "blog": {
+        "title": "Blog",
+        "subtitle": "Actualités, conseils et inspiration pour les jeunes tchadiens",
+        "search": "Rechercher un article...",
+        "read_more": "Lire l'article",
+        "read_time": "min de lecture",
+        "share": "Partager",
+        "tags": "Tags"
+    },
+    "media": {
+        "title": "Médiathèque",
+        "subtitle": "Photos, vidéos et ressources de YouthConnekt Tchad",
+        "photos": "Photos",
+        "videos": "Vidéos",
+        "press": "Communiqués de presse",
+        "kit": "Kit Média"
+    },
+    "partners": {
+        "title": "Devenir Partenaire",
+        "subtitle": "Investissez dans la jeunesse tchadienne, construisons ensemble",
+        "value_title": "Pourquoi nous rejoindre ?",
+        "collab_title": "Axes de collaboration",
+        "formulas_title": "Formules de partenariat",
+        "form_title": "Demander un partenariat",
+        "bronze": "Bronze",
+        "silver": "Silver",
+        "gold": "Gold",
+        "strategic": "Stratégique"
+    },
+    "contact": {
+        "title": "Nous contacter",
+        "subtitle": "Nous sommes là pour répondre à toutes vos questions",
+        "address": "Adresse",
+        "email": "Email",
+        "phone": "Téléphone",
+        "form_title": "Envoyer un message",
+        "name": "Nom complet",
+        "subject": "Sujet",
+        "message": "Message",
+        "send": "Envoyer le message",
+        "follow": "Suivez-nous"
+    },
+    "join": {
+        "title": "Rejoindre la communauté",
+        "subtitle": "Faites partie du mouvement YouthConnekt Tchad",
+        "firstname": "Prénom",
+        "lastname": "Nom",
+        "email": "Email",
+        "phone": "Téléphone",
+        "region": "Région",
+        "profile": "Profil",
+        "profile_student": "Étudiant(e)",
+        "profile_job": "Demandeur(se) d'emploi",
+        "profile_entrepreneur": "Entrepreneur(e)",
+        "skills": "Compétences",
+        "interests": "Centres d'intérêt",
+        "submit": "Rejoindre maintenant",
+        "success": "Bienvenue dans la communauté YouthConnekt Tchad !"
+    },
+    "footer": {
+        "description": "Programme national d'autonomisation des jeunes tchadiens pour un avenir prospère et inclusif.",
+        "quick_links": "Liens rapides",
+        "contact_us": "Contact",
+        "follow_us": "Réseaux sociaux",
+        "copyright": "© 2026 YouthConnekt Tchad. Tous droits réservés.",
+        "legal": "Mentions légales",
+        "privacy": "Confidentialité",
+        "terms": "Conditions d'utilisation"
+    },
+    "common": {
+        "read_more": "En savoir plus",
+        "see_all": "Voir tout",
+        "back": "Retour",
+        "loading": "Chargement...",
+        "no_results": "Aucun résultat trouvé.",
+        "submit": "Soumettre",
+        "required": "Champ obligatoire"
+    }
+}

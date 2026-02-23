@@ -1,0 +1,117 @@
+/* Reuse */
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 48px;
+    align-items: flex-start;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.sidebar {}
+
+.block h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.programList {
+    display: flex;
+    flex-direction: column;
+}
+
+.programItem {
+    display: flex;
+    gap: 0;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.programTime {
+    min-width: 100px;
+    padding: 14px 16px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--accent);
+    background: rgba(230, 94, 52, 0.06);
+    border-right: 2px solid var(--accent);
+    flex-shrink: 0;
+}
+
+.programActivity {
+    padding: 14px 20px;
+    font-size: 0.92rem;
+    color: var(--gray-700);
+}
+
+.speakersGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.speakerCard {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 16px;
+    background: var(--gray-100);
+    border-radius: var(--radius-md);
+}
+
+.speakerAvatar {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.speakerCard strong {
+    display: block;
+    font-size: 0.95rem;
+    color: var(--gray-900);
+}
+
+.speakerCard span {
+    font-size: 0.85rem;
+    color: var(--accent);
+}
+
+.regCard {
+    background: var(--white);
+    border: 2px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: 28px;
+    box-shadow: var(--shadow-md);
+    position: sticky;
+    top: calc(var(--header-height) + 24px);
+}
+
+.regCard h3 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+@media (max-width: 900px) {
+    .layout {
+        grid-template-columns: 1fr;
+    }
+
+    .regCard {
+        position: static;
+    }
+}

@@ -1,0 +1,230 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "programs": "Programs",
+        "opportunities": "Opportunities",
+        "events": "Events",
+        "blog": "Blog",
+        "media": "Media",
+        "partners": "Partners",
+        "contact": "Contact",
+        "join": "Join"
+    },
+    "hero": {
+        "title": "Connecting Youth to Opportunities and the Future",
+        "subtitle": "YouthConnekt Chad is a national youth empowerment program that facilitates access to opportunities, skills development, and entrepreneurship to build the Chad of tomorrow.",
+        "cta1": "Join the Community",
+        "cta2": "View Opportunities"
+    },
+    "stats": {
+        "youth": "Youth Supported",
+        "trainings": "Trainings Organized",
+        "startups": "Startups Supported",
+        "partners": "Partners"
+    },
+    "about_section": {
+        "title": "Who We Are",
+        "subtitle": "YouthConnekt Chad is a national platform dedicated to empowering Chadian youth. We create bridges between young people and the opportunities that shape their future.",
+        "link": "Learn more"
+    },
+    "programs_section": {
+        "title": "Our Programs",
+        "subtitle": "Programs designed to meet the real needs of Chadian youth, from training to entrepreneurship.",
+        "employability": {
+            "title": "Employability & Skills",
+            "desc": "Practical training, certifications and employment support for graduates and job seekers."
+        },
+        "entrepreneurship": {
+            "title": "Entrepreneurship & Incubation",
+            "desc": "Support for startups and young entrepreneurs through coaching, mentoring and access to financing."
+        },
+        "innovation": {
+            "title": "Innovation & Digital",
+            "desc": "Hackathons, innovation challenges and digital training to prepare youth for the digital economy."
+        },
+        "leadership": {
+            "title": "Civic Engagement & Leadership",
+            "desc": "Citizenship leadership, volunteering and engagement programs to shape tomorrow's decision-makers."
+        }
+    },
+    "opportunities_section": {
+        "title": "Latest Opportunities",
+        "subtitle": "Scholarships, training, competitions, jobs and funding for Chadian youth.",
+        "view_all": "View all opportunities"
+    },
+    "events_section": {
+        "title": "Upcoming Events",
+        "subtitle": "Meetings, forums, hackathons and workshops to connect, inspire and train.",
+        "view_all": "View calendar"
+    },
+    "testimonials_section": {
+        "title": "Testimonials",
+        "subtitle": "Young people who transformed their lives thanks to YouthConnekt Chad."
+    },
+    "partners_section": {
+        "title": "Our Partners",
+        "subtitle": "Together, we build an ecosystem that supports the flourishing of Chadian youth."
+    },
+    "newsletter_section": {
+        "title": "Stay Informed",
+        "subtitle": "Receive the latest opportunities, news and events directly in your inbox.",
+        "placeholder": "Your email address",
+        "button": "Subscribe",
+        "success": "Thank you! You are now subscribed."
+    },
+    "about": {
+        "title": "About YouthConnekt Chad",
+        "mission_title": "Our Mission",
+        "mission_text": "Empower Chadian youth by providing access to opportunities, skills and networks needed to reach their full potential and contribute to Chad's development.",
+        "vision_title": "Our Vision",
+        "vision_text": "A Chad where every young person, regardless of background, has the tools and support to build a prosperous future and actively participate in national development.",
+        "objectives_title": "Our Objectives",
+        "obj1": "Reduce youth unemployment by facilitating access to employment and entrepreneurship",
+        "obj2": "Strengthen the technical and soft skills of young people",
+        "obj3": "Create a national network of young leaders and innovators",
+        "obj4": "Promote inclusion, parity and equity in access to opportunities",
+        "values_title": "Our Values",
+        "val1_title": "Inclusion",
+        "val1_desc": "All youth, without discrimination, deserve equal access to opportunities.",
+        "val2_title": "Excellence",
+        "val2_desc": "We aim for the highest standards in everything we undertake.",
+        "val3_title": "Impact",
+        "val3_desc": "Every action is oriented towards concrete and measurable change.",
+        "val4_title": "Partnership",
+        "val4_desc": "We build together — with youth, institutions and the private sector.",
+        "timeline_title": "Our Journey",
+        "team_title": "Our Team",
+        "faq_title": "Frequently Asked Questions",
+        "faq1_q": "Who can join YouthConnekt Chad?",
+        "faq1_a": "All Chadian youth aged 15 to 35 can join the platform, whether they are students, job seekers or young entrepreneurs.",
+        "faq2_q": "How do I apply for an opportunity?",
+        "faq2_a": "Simply create an account, browse available opportunities and submit your application online.",
+        "faq3_q": "Are the programs free?",
+        "faq3_a": "The majority of our programs are completely free thanks to the support of our institutional and private partners.",
+        "faq4_q": "How to become a partner?",
+        "faq4_a": "Visit our Partners page and fill out the application form. Our team will contact you within 48 hours."
+    },
+    "programs": {
+        "title": "Our Programs",
+        "subtitle": "Four pillars to empower Chadian youth",
+        "apply": "Apply / Register",
+        "objectives": "Objectives",
+        "audience": "Target Audience",
+        "format": "Format",
+        "benefits": "Benefits",
+        "how": "How to Participate"
+    },
+    "opportunities": {
+        "title": "Opportunities",
+        "subtitle": "Scholarships, training, competitions, jobs and funding",
+        "search": "Search an opportunity...",
+        "filter_category": "Category",
+        "filter_status": "Status",
+        "all": "All",
+        "open": "Open",
+        "closed": "Closed",
+        "deadline": "Deadline",
+        "organization": "Organization",
+        "apply_btn": "Apply",
+        "share_btn": "Share",
+        "submit_title": "Submit an Opportunity",
+        "submit_subtitle": "Do you have a scholarship, contest or job to share? Submit it here.",
+        "categories": {
+            "bourse": "Scholarship",
+            "formation": "Training",
+            "concours": "Competition",
+            "emploi": "Job",
+            "financement": "Funding"
+        }
+    },
+    "events": {
+        "title": "Events",
+        "subtitle": "Forums, hackathons, workshops and meetings",
+        "register": "Register",
+        "location": "Location",
+        "date_time": "Date & Time",
+        "speakers": "Speakers",
+        "program": "Program",
+        "partners": "Event Partners",
+        "gallery": "Gallery"
+    },
+    "blog": {
+        "title": "Blog",
+        "subtitle": "News, tips and inspiration for Chadian youth",
+        "search": "Search an article...",
+        "read_more": "Read article",
+        "read_time": "min read",
+        "share": "Share",
+        "tags": "Tags"
+    },
+    "media": {
+        "title": "Media Library",
+        "subtitle": "Photos, videos and resources from YouthConnekt Chad",
+        "photos": "Photos",
+        "videos": "Videos",
+        "press": "Press Releases",
+        "kit": "Media Kit"
+    },
+    "partners": {
+        "title": "Become a Partner",
+        "subtitle": "Invest in Chadian youth, let's build together",
+        "value_title": "Why join us?",
+        "collab_title": "Collaboration Areas",
+        "formulas_title": "Partnership Packages",
+        "form_title": "Request a Partnership",
+        "bronze": "Bronze",
+        "silver": "Silver",
+        "gold": "Gold",
+        "strategic": "Strategic"
+    },
+    "contact": {
+        "title": "Contact Us",
+        "subtitle": "We are here to answer all your questions",
+        "address": "Address",
+        "email": "Email",
+        "phone": "Phone",
+        "form_title": "Send a Message",
+        "name": "Full Name",
+        "subject": "Subject",
+        "message": "Message",
+        "send": "Send Message",
+        "follow": "Follow Us"
+    },
+    "join": {
+        "title": "Join the Community",
+        "subtitle": "Be part of the YouthConnekt Chad movement",
+        "firstname": "First Name",
+        "lastname": "Last Name",
+        "email": "Email",
+        "phone": "Phone",
+        "region": "Region",
+        "profile": "Profile",
+        "profile_student": "Student",
+        "profile_job": "Job Seeker",
+        "profile_entrepreneur": "Entrepreneur",
+        "skills": "Skills",
+        "interests": "Areas of Interest",
+        "submit": "Join Now",
+        "success": "Welcome to the YouthConnekt Chad community!"
+    },
+    "footer": {
+        "description": "National program for empowering Chadian youth toward a prosperous and inclusive future.",
+        "quick_links": "Quick Links",
+        "contact_us": "Contact",
+        "follow_us": "Social Media",
+        "copyright": "© 2026 YouthConnekt Chad. All rights reserved.",
+        "legal": "Legal Notice",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Use"
+    },
+    "common": {
+        "read_more": "Learn more",
+        "see_all": "See all",
+        "back": "Back",
+        "loading": "Loading...",
+        "no_results": "No results found.",
+        "submit": "Submit",
+        "required": "Required field"
+    }
+}

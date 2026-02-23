@@ -1,0 +1,42 @@
+[
+    {
+        "image": "assets/img/team/ALHAFIZ HASSAN AHAMAT.png",
+        "name": "ALHAFIZ HASSAN AHAMAT",
+        "role": "Coordonnateur National"
+    },
+    {
+        "image": "assets/img/team/MOUNIR MAHAMAT ISSA.png",
+        "name": "MOUNIR MAHAMAT ISSA",
+        "role": "Chef de service de gestion administrative et des projets"
+    },
+    {
+        "image": "assets/img/team/NAIMA DADI HASSAN.png",
+        "name": "NAIMA DADI HASSAN",
+        "role": "Chef de service de gestion comptable, financière et du matériel"
+    },
+    {
+        "image": "assets/img/team/YAMNELOUM MARIE FRANCE.png",
+        "name": "YAMNELOUM MARIE FRANCE",
+        "role": "Chef de service Programme Suivi-évaluation"
+    },
+    {
+        "image": "assets/img/team/FATIME SONIA MANGUE.png",
+        "name": "FATIME SONIA MANGUE",
+        "role": "Cheffe de service Coopération et partenariat"
+    },
+    {
+        "image": "assets/img/team/MAHAMAT MOUMINE DJIBRINE ASSAD.png",
+        "name": "SOULEYMANE MAHAMAT SALEH",
+        "role": "Chef Service de Communication et de l'information"
+    },
+    {
+        "image": "assets/img/team/SEID SEID IBRAHIM.png",
+        "name": "SEID SEID IBRAHIM",
+        "role": "Assistant au chef de service de gestion de l'information et de la communication"
+    },
+    {
+        "image": "assets/img/team/MAHAMAT SALEH AHMAT.png",
+        "name": "MAHAMAT SALEH AHMAT",
+        "role": "Assistant du Coordonnateur"
+    }
+]

@@ -1,0 +1,117 @@
+.statsStrip {
+    background: var(--primary);
+    padding: 32px 0;
+}
+
+.statsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    divide-x: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.statItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.statItem:last-child {
+    border-right: none;
+}
+
+.statV {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--white);
+}
+
+.statL {
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.successBox {
+    text-align: center;
+    background: var(--white);
+    border-radius: var(--radius-xl);
+    padding: 64px;
+    box-shadow: var(--shadow-md);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.successIcon {
+    font-size: 4rem;
+}
+
+.successBox h2 {
+    font-size: 1.8rem;
+    color: var(--primary);
+}
+
+.successBox p {
+    font-size: 1rem;
+    color: var(--gray-600);
+}
+
+.formCard {
+    background: var(--white);
+    border-radius: var(--radius-xl);
+    padding: 48px;
+    box-shadow: var(--shadow-md);
+}
+
+.interestGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 4px;
+}
+
+.interestBtn {
+    padding: 8px 16px;
+    border-radius: var(--radius-full);
+    border: 2px solid var(--gray-200);
+    background: var(--white);
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--gray-700);
+    cursor: pointer;
+    transition: var(--transition);
+    font-family: inherit;
+}
+
+.interestBtn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.interestActive {
+    background: var(--primary) !important;
+    color: var(--white) !important;
+    border-color: var(--primary) !important;
+}
+
+@media (max-width: 768px) {
+    .statsGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .statItem {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .formCard {
+        padding: 24px;
+    }
+
+    .successBox {
+        padding: 40px 24px;
+    }
+}

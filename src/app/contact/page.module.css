@@ -1,0 +1,119 @@
+.contactGrid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 48px;
+    margin-bottom: 48px;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.infoCard {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    padding: 20px 24px;
+    background: var(--gray-100);
+    border-radius: var(--radius-md);
+    border-left: 3px solid var(--primary);
+}
+
+.icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.infoCard strong {
+    display: block;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--gray-600);
+    margin-bottom: 4px;
+}
+
+.infoCard p,
+.infoCard a {
+    font-size: 0.95rem;
+    color: var(--gray-800);
+    line-height: 1.6;
+}
+
+.infoCard a:hover {
+    color: var(--primary);
+}
+
+.socials {
+    padding-top: 8px;
+}
+
+.socials h4 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--gray-600);
+    margin-bottom: 12px;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 10px;
+}
+
+.socialBtn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--primary);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 0.9rem;
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+.socialBtn:hover {
+    background: var(--accent);
+    transform: translateY(-2px);
+}
+
+.formCard {
+    background: var(--white);
+    border-radius: var(--radius-xl);
+    padding: 48px;
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--gray-200);
+}
+
+.formCard h2 {
+    margin-bottom: 28px;
+}
+
+.mapContainer {
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    height: 380px;
+}
+
+.mapIframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+@media (max-width: 900px) {
+    .contactGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .formCard {
+        padding: 28px;
+    }
+}

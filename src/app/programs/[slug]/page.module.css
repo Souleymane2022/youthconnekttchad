@@ -1,0 +1,142 @@
+.heroIcon {
+    font-size: 3.5rem;
+    margin-bottom: 16px;
+}
+
+.detailGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.block h2 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.objectivesList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.objectivesList li {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    font-size: 0.95rem;
+    color: var(--gray-700);
+    padding: 12px 16px;
+    background: var(--gray-100);
+    border-radius: var(--radius-md);
+}
+
+.checkIcon {
+    flex-shrink: 0;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.infoCards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.infoCard {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 24px;
+    background: var(--white);
+    border: 2px solid var(--gray-200);
+    border-radius: var(--radius-md);
+    transition: var(--transition);
+}
+
+.infoCard:hover {
+    border-color: var(--primary);
+}
+
+.infoIcon {
+    font-size: 1.8rem;
+    flex-shrink: 0;
+}
+
+.infoCard strong {
+    display: block;
+    font-size: 0.88rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--gray-600);
+    margin-bottom: 6px;
+}
+
+.infoCard p {
+    font-size: 0.95rem;
+    color: var(--gray-700);
+}
+
+.benefitsBlock {
+    border: 1px solid;
+    border-radius: var(--radius-lg);
+    padding: 36px;
+}
+
+.benefitsBlock h2 {
+    margin-bottom: 20px;
+}
+
+.benefitsList {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.benefitsList li {
+    display: flex;
+    gap: 8px;
+    font-size: 0.92rem;
+    color: var(--gray-700);
+}
+
+.ctaBox {
+    margin-top: 64px;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    border-radius: var(--radius-xl);
+    padding: 48px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.ctaBox h3 {
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+.ctaBox p {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 8px;
+}
+
+.ctaBox>.btn+.btn {
+    margin-top: 4px;
+}
+
+@media (max-width: 768px) {
+    .benefitsList {
+        grid-template-columns: 1fr;
+    }
+
+    .ctaBox {
+        padding: 32px 24px;
+    }
+}

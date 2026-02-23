@@ -1,0 +1,125 @@
+.detailLayout {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.block h2 {
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.criteriaList,
+.docList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.criteriaList li,
+.docList li {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    font-size: 0.95rem;
+    color: var(--gray-700);
+    padding: 12px 16px;
+    background: var(--gray-100);
+    border-radius: var(--radius-md);
+}
+
+.criteriaList li span {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.docList li span {
+    flex-shrink: 0;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sideCard {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: var(--shadow-sm);
+    position: sticky;
+    top: calc(var(--header-height) + 24px);
+}
+
+.deadlineBox {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.deadlineLabel {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--gray-600);
+    font-weight: 600;
+}
+
+.deadlineDate {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.applyBtn {
+    width: 100%;
+    justify-content: center;
+}
+
+.shareBtn {
+    width: 100%;
+    justify-content: center;
+}
+
+.orgCard {
+    background: var(--primary);
+    color: var(--white);
+    border-radius: var(--radius-md);
+    padding: 16px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.tagsCard {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .detailLayout {
+        grid-template-columns: 1fr;
+    }
+
+    .sideCard {
+        position: static;
+    }
+}

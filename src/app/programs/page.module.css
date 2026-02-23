@@ -1,0 +1,65 @@
+.programsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.programCard {
+    padding: 40px 36px;
+    border-top: 5px solid var(--primary);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-decoration: none;
+}
+
+.progHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progIcon {
+    font-size: 3rem;
+}
+
+.progBadge {
+    padding: 4px 14px;
+    border-radius: var(--radius-full);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.programCard h2 {
+    font-size: 1.3rem;
+    color: var(--gray-900);
+    margin: 0;
+}
+
+.programCard p {
+    font-size: 0.95rem;
+    flex: 1;
+}
+
+.progObjectivesList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.progObjectivesList li {
+    font-size: 0.88rem;
+    color: var(--gray-700);
+}
+
+.progCta {
+    align-self: flex-start;
+    border-radius: var(--radius-full);
+}
+
+@media (max-width: 768px) {
+    .programsGrid {
+        grid-template-columns: 1fr;
+    }
+}

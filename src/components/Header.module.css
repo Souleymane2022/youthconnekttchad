@@ -1,0 +1,238 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+    height: var(--header-height);
+}
+
+.header.scrolled {
+    background: rgba(255, 255, 255, 0.98);
+    border-bottom-color: var(--gray-200);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--header-height);
+    gap: 16px;
+}
+
+/* LOGO */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    text-decoration: none;
+}
+
+.logoImg {
+    height: 44px;
+    width: auto;
+    border-radius: 6px;
+    object-fit: contain;
+}
+
+.logoText {
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--primary);
+    line-height: 1.2;
+}
+
+.logoText span {
+    color: var(--accent);
+}
+
+/* NAV */
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex: 1;
+    justify-content: center;
+}
+
+.navLink {
+    padding: 6px 10px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--gray-800);
+    border-radius: var(--radius-sm);
+    transition: var(--transition);
+    white-space: nowrap;
+}
+
+.navLink:hover {
+    color: var(--primary);
+    background: rgba(14, 89, 73, 0.07);
+}
+
+/* ACTIONS */
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+/* LANG SWITCHER */
+.langSwitcher {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    background: var(--gray-100);
+    border-radius: var(--radius-full);
+    padding: 3px;
+}
+
+.langBtn {
+    padding: 4px 10px;
+    border-radius: var(--radius-full);
+    border: none;
+    background: transparent;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--gray-600);
+    cursor: pointer;
+    transition: var(--transition);
+    letter-spacing: 0.05em;
+}
+
+.langBtn:hover {
+    color: var(--primary);
+}
+
+.langActive {
+    background: var(--primary);
+    color: var(--white) !important;
+}
+
+/* CTA */
+.ctaBtn {
+    flex-shrink: 0;
+}
+
+/* HAMBURGER */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    padding: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 22px;
+    height: 2px;
+    background: var(--gray-800);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    transform-origin: center;
+}
+
+.barOpen1 {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.barOpen2 {
+    opacity: 0;
+}
+
+.barOpen3 {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* MOBILE MENU */
+.mobileMenu {
+    display: none;
+    flex-direction: column;
+    background: var(--white);
+    border-top: 1px solid var(--gray-200);
+    padding: 16px 24px 24px;
+    gap: 4px;
+    position: absolute;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-10px);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.mobileOpen {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: all;
+}
+
+.mobileLink {
+    padding: 12px 16px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--gray-800);
+    border-radius: var(--radius-md);
+    transition: var(--transition);
+}
+
+.mobileLink:hover {
+    background: var(--gray-100);
+    color: var(--primary);
+}
+
+.mobileCta {
+    margin-top: 12px;
+    text-align: center;
+    justify-content: center;
+}
+
+.mobileLang {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--gray-200);
+}
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+    .navLink {
+        font-size: 0.8rem;
+        padding: 6px 7px;
+    }
+}
+
+@media (max-width: 920px) {
+    .nav {
+        display: none;
+    }
+
+    .ctaBtn {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .mobileMenu {
+        display: flex;
+    }
+
+    .logoText {
+        display: none;
+    }
+}

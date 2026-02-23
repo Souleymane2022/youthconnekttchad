@@ -1,0 +1,117 @@
+.searchRow {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.searchInput {
+    flex: 1;
+}
+
+.filterSelect {
+    width: 160px;
+    flex-shrink: 0;
+}
+
+.catTabs {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+}
+
+.catTab {
+    padding: 8px 18px;
+    border-radius: var(--radius-full);
+    border: 2px solid var(--gray-200);
+    background: var(--white);
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--gray-600);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.catTab:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.catTabActive {
+    border-color: var(--primary);
+    background: var(--primary);
+    color: var(--white);
+}
+
+.resultsCount {
+    font-size: 0.88rem;
+    color: var(--gray-600);
+    margin-bottom: 24px;
+}
+
+.noResults {
+    text-align: center;
+    padding: 60px;
+    color: var(--gray-600);
+    font-size: 1.1rem;
+}
+
+.oppCard {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    text-decoration: none;
+}
+
+.oppTop {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.oppTitle {
+    font-size: 1rem;
+    color: var(--gray-900);
+    line-height: 1.4;
+}
+
+.oppMeta {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 0.85rem;
+    color: var(--gray-600);
+}
+
+.oppTags {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.submitTrigger {
+    margin-top: 56px;
+    text-align: center;
+    padding-top: 40px;
+    border-top: 2px dashed var(--gray-300);
+}
+
+.submitForm {
+    margin-top: 40px;
+    background: var(--white);
+    border-radius: var(--radius-xl);
+    padding: 48px;
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--gray-200);
+}
+
+.submitForm h3 {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
+
+.submitForm>p {
+    margin-bottom: 32px;
+    font-size: 0.95rem;
+}
