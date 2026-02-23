@@ -1,6 +1,7 @@
 'use client'
 import { useLanguage } from '@/context/LanguageContext'
 import Link from 'next/link'
+import { CheckCircle2, ArrowRight } from 'lucide-react'
 import { programs } from '@/data/programs'
 import styles from './page.module.css'
 
@@ -33,11 +34,13 @@ export default function ProgramsPage() {
                                 <p>{lang === 'ar' ? prog.shortDesc_ar : lang === 'en' ? prog.shortDesc_en : prog.shortDesc}</p>
                                 <ul className={styles.progObjectivesList}>
                                     {(lang === 'en' ? prog.objectives_en : prog.objectives).slice(0, 2).map((o, j) => (
-                                        <li key={j}>✓ {o}</li>
+                                        <li key={j} style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
+                                            <CheckCircle2 size={16} color={prog.color} /> {o}
+                                        </li>
                                     ))}
                                 </ul>
-                                <span className={`btn btn-sm ${styles.progCta}`} style={{ background: prog.color, color: '#fff', borderColor: prog.color }}>
-                                    {t('programs.apply')} →
+                                <span className={`btn btn-sm ${styles.progCta}`} style={{ background: prog.color, color: '#fff', borderColor: prog.color, display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+                                    {t('programs.apply')} <ArrowRight size={16} />
                                 </span>
                             </Link>
                         ))}

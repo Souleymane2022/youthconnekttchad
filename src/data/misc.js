@@ -46,12 +46,12 @@ export const teamMembers = [
 ]
 
 export const partners = [
-    { id: 1, name: "PNUD Tchad", logo: null, category: "international" },
-    { id: 2, name: "Union Européenne", logo: null, category: "international" },
-    { id: 3, name: "AFD", logo: null, category: "international" },
-    { id: 4, name: "GIZ", logo: null, category: "international" },
-    { id: 5, name: "Orange Tchad", logo: null, category: "privé" },
-    { id: 6, name: "MTN Tchad", logo: null, category: "privé" },
-    { id: 7, name: "Ministère de la Jeunesse", logo: null, category: "gouvernement" },
-    { id: 8, name: "BIT – Bureau International du Travail", logo: null, category: "international" }
+    { id: 1, name: "Partenaire 1", logo: "/assets/img/brand/1.png", category: "international" },
+    { id: 2, name: "Partenaire 2", logo: "/assets/img/brand/2.png", category: "international" },
+    { id: 3, name: "Partenaire 3", logo: "/assets/img/brand/3.png", category: "international" },
+    { id: 4, name: "Partenaire 4", logo: "/assets/img/brand/5.png", category: "international" },
+    { id: 5, name: "Partenaire 5", logo: "/assets/img/brand/6.png", category: "privé" },
+    { id: 6, name: "Partenaire 6", logo: "/assets/img/brand/9.png", category: "privé" },
+    { id: 7, name: "Partenaire 7", logo: "/assets/img/brand/7.png", category: "gouvernement" },
+    { id: 8, name: "Partenaire 8", logo: "/assets/img/brand/8.png", category: "international" }
 ]

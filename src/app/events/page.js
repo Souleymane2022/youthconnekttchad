@@ -1,6 +1,7 @@
 'use client'
 import { useLanguage } from '@/context/LanguageContext'
 import Link from 'next/link'
+import { MapPin, Clock } from 'lucide-react'
 import { events } from '@/data/events'
 import styles from './page.module.css'
 
@@ -22,9 +23,9 @@ export default function EventsPage() {
                 </div>
                 <h3>{lang === 'ar' ? ev.title_ar : lang === 'en' ? ev.title_en : ev.title}</h3>
                 <p className={styles.evDesc}>{lang === 'ar' ? ev.description_ar : lang === 'en' ? ev.description_en : ev.description}</p>
-                <div className={styles.evFooter}>
-                    <span>📍 {ev.location}</span>
-                    <span>🕗 {ev.time}–{ev.endTime}</span>
+                <div className={styles.evFooter} style={{ display: 'flex', gap: '16px', color: 'var(--gray-600)', fontSize: '0.85rem' }}>
+                    <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}><MapPin size={14} /> {ev.location}</span>
+                    <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}><Clock size={14} /> {ev.time}–{ev.endTime}</span>
                 </div>
             </div>
         </Link>

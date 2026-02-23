@@ -2,6 +2,7 @@
 import { useLanguage } from '@/context/LanguageContext'
 import Link from 'next/link'
 import { useState } from 'react'
+import { Building, Calendar, Send } from 'lucide-react'
 import { opportunities } from '@/data/opportunities'
 import styles from './page.module.css'
 
@@ -85,9 +86,9 @@ export default function OpportunitiesPage() {
                                             </span>
                                         </div>
                                         <h3 className={styles.oppTitle}>{title}</h3>
-                                        <div className={styles.oppMeta}>
-                                            <span>🏢 {opp.organization}</span>
-                                            <span>📅 {new Date(opp.deadline).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+                                        <div className={styles.oppMeta} style={{ display: 'flex', flexDirection: 'column', gap: '6px', color: 'var(--gray-600)', fontSize: '0.85rem' }}>
+                                            <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}><Building size={14} /> {opp.organization}</span>
+                                            <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}><Calendar size={14} /> {new Date(opp.deadline).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
                                         </div>
                                         <div className={styles.oppTags}>
                                             {opp.tags.map(tag => <span key={tag} className="tag">{tag}</span>)}
@@ -100,8 +101,8 @@ export default function OpportunitiesPage() {
 
                     {/* Submit Button */}
                     <div className={styles.submitTrigger}>
-                        <button onClick={() => setShowForm(!showForm)} className="btn btn-secondary">
-                            📤 {t('opportunities.submit_title')}
+                        <button onClick={() => setShowForm(!showForm)} className="btn btn-secondary" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+                            <Send size={18} /> {t('opportunities.submit_title')}
                         </button>
                     </div>
 
