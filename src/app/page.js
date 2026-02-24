@@ -306,7 +306,7 @@ export default function HomePage() {
                     <div className={styles.partnersGrid}>
                         {partners.map(p => (
                             <div key={p.id} className={styles.partnerItem}>
-                                <span>{p.name}</span>
+                                <Image src={p.logo} alt={p.name} width={150} height={80} style={{ objectFit: 'contain' }} />
                             </div>
                         ))}
                     </div>

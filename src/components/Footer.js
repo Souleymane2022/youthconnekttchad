@@ -35,7 +35,7 @@ export default function Footer() {
                     {/* Brand */}
                     <div className={styles.brandCol}>
                         <Link href="/" className={styles.logoWrap}>
-                            <img src="/assets/logo.jpg" alt="YouthConnekt Tchad" className={styles.logo} />
+                            <img src="/assets/img/fetched/logo.jpg" alt="YouthConnekt Tchad" className={styles.logo} />
                             <span className={styles.logoText}>YouthConnekt <span>Tchad</span></span>
                         </Link>
                         <p className={styles.desc}>{t('footer.description')}</p>

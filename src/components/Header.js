@@ -32,7 +32,7 @@ export default function Header() {
             <div className={`container ${styles.inner}`}>
                 {/* Logo */}
                 <Link href="/" className={styles.logo} onClick={() => setMenuOpen(false)}>
-                    <img src="/assets/logo.jpg" alt="YouthConnekt Tchad" className={styles.logoImg} />
+                    <img src="/assets/img/fetched/logo.jpg" alt="YouthConnekt Tchad" className={styles.logoImg} />
                     <span className={styles.logoText}>YouthConnekt <span>Tchad</span></span>
                 </Link>
 
